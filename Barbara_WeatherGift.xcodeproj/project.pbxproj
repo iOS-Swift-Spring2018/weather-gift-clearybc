@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871DD4500E606E27B6F2DB0A /* Pods_Barbara_WeatherGift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422DDFE0982965CD1D2FA0CC /* Pods_Barbara_WeatherGift.framework */; };
+		E75DAC9C206AD82F00582D79 /* DayWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DAC9B206AD82F00582D79 /* DayWeatherCell.swift */; };
+		E75DAC9E206B019A00582D79 /* TimeInterval+format.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = E75DAC9D206B019A00582D79 /* TimeInterval+format.swift .swift */; };
+		E770C4382065738D0059202B /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770C4372065738D0059202B /* WeatherLocation.swift */; };
+		E77487DC2069233D0083E1D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77487DB2069233D0083E1D8 /* Constants.swift */; };
 		E7B445AC205D985A0060C56D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B445AB205D985A0060C56D /* AppDelegate.swift */; };
-		E7B445AE205D985A0060C56D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B445AD205D985A0060C56D /* ViewController.swift */; };
 		E7B445B1205D985A0060C56D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B445AF205D985A0060C56D /* Main.storyboard */; };
 		E7B445B3205D985A0060C56D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B445B2205D985A0060C56D /* Assets.xcassets */; };
 		E7B445B6205D985A0060C56D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B445B4205D985A0060C56D /* LaunchScreen.storyboard */; };
+		E7B445BE205D99290060C56D /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B445BD205D99290060C56D /* DetailVC.swift */; };
+		E7B445C0205DA50B0060C56D /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B445BF205DA50B0060C56D /* ListVC.swift */; };
+		E7B445C2205DA7EF0060C56D /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B445C1205DA7EF0060C56D /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0A921FE5F8E3254B28A55E /* Pods-Barbara_WeatherGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barbara_WeatherGift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barbara_WeatherGift/Pods-Barbara_WeatherGift.debug.xcconfig"; sourceTree = "<group>"; };
+		422DDFE0982965CD1D2FA0CC /* Pods_Barbara_WeatherGift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barbara_WeatherGift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9830A50F7F53AED368AC97D6 /* Pods-Barbara_WeatherGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barbara_WeatherGift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barbara_WeatherGift/Pods-Barbara_WeatherGift.release.xcconfig"; sourceTree = "<group>"; };
+		E75DAC9B206AD82F00582D79 /* DayWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherCell.swift; sourceTree = "<group>"; };
+		E75DAC9D206B019A00582D79 /* TimeInterval+format.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+format.swift .swift"; sourceTree = "<group>"; };
+		E770C4372065738D0059202B /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
+		E77487DB2069233D0083E1D8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E7B445A8205D985A0060C56D /* Barbara_WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barbara_WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B445AB205D985A0060C56D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7B445AD205D985A0060C56D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7B445B0205D985A0060C56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7B445B2205D985A0060C56D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7B445B5205D985A0060C56D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B445B7205D985A0060C56D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B445BD205D99290060C56D /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		E7B445BF205DA50B0060C56D /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		E7B445C1205DA7EF0060C56D /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				871DD4500E606E27B6F2DB0A /* Pods_Barbara_WeatherGift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		336F2F323B45A5051F1CF799 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				422DDFE0982965CD1D2FA0CC /* Pods_Barbara_WeatherGift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BB72B1A2CAE2FC3D0CB457E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A921FE5F8E3254B28A55E /* Pods-Barbara_WeatherGift.debug.xcconfig */,
+				9830A50F7F53AED368AC97D6 /* Pods-Barbara_WeatherGift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7B4459F205D98590060C56D = {
 			isa = PBXGroup;
 			children = (
 				E7B445AA205D985A0060C56D /* Barbara_WeatherGift */,
 				E7B445A9205D985A0060C56D /* Products */,
+				7BB72B1A2CAE2FC3D0CB457E /* Pods */,
+				336F2F323B45A5051F1CF799 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				E7B445AB205D985A0060C56D /* AppDelegate.swift */,
-				E7B445AD205D985A0060C56D /* ViewController.swift */,
+				E770C4372065738D0059202B /* WeatherLocation.swift */,
+				E7B445C1205DA7EF0060C56D /* PageVC.swift */,
+				E7B445BD205D99290060C56D /* DetailVC.swift */,
+				E75DAC9B206AD82F00582D79 /* DayWeatherCell.swift */,
+				E75DAC9D206B019A00582D79 /* TimeInterval+format.swift .swift */,
+				E7B445BF205DA50B0060C56D /* ListVC.swift */,
+				E77487DB2069233D0083E1D8 /* Constants.swift */,
 				E7B445AF205D985A0060C56D /* Main.storyboard */,
 				E7B445B2205D985A0060C56D /* Assets.xcassets */,
 				E7B445B4205D985A0060C56D /* LaunchScreen.storyboard */,
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7B445BA205D985A0060C56D /* Build configuration list for PBXNativeTarget "Barbara_WeatherGift" */;
 			buildPhases = (
+				CBBFD32EA5446740C1FC1BEA /* [CP] Check Pods Manifest.lock */,
 				E7B445A4205D985A0060C56D /* Sources */,
 				E7B445A5205D985A0060C56D /* Frameworks */,
 				E7B445A6205D985A0060C56D /* Resources */,
+				8AC917F054E0F591324B88A4 /* [CP] Embed Pods Frameworks */,
+				36374B1529621C42C554B85C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +176,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36374B1529621C42C554B85C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Barbara_WeatherGift/Pods-Barbara_WeatherGift-resources.sh",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barbara_WeatherGift/Pods-Barbara_WeatherGift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC917F054E0F591324B88A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Barbara_WeatherGift/Pods-Barbara_WeatherGift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barbara_WeatherGift/Pods-Barbara_WeatherGift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBBFD32EA5446740C1FC1BEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barbara_WeatherGift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E7B445A4205D985A0060C56D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B445AE205D985A0060C56D /* ViewController.swift in Sources */,
+				E75DAC9C206AD82F00582D79 /* DayWeatherCell.swift in Sources */,
+				E770C4382065738D0059202B /* WeatherLocation.swift in Sources */,
+				E7B445C0205DA50B0060C56D /* ListVC.swift in Sources */,
+				E7B445C2205DA7EF0060C56D /* PageVC.swift in Sources */,
+				E75DAC9E206B019A00582D79 /* TimeInterval+format.swift .swift in Sources */,
 				E7B445AC205D985A0060C56D /* AppDelegate.swift in Sources */,
+				E7B445BE205D99290060C56D /* DetailVC.swift in Sources */,
+				E77487DC2069233D0083E1D8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,31 +382,35 @@
 		};
 		E7B445BB205D985A0060C56D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0A921FE5F8E3254B28A55E /* Pods-Barbara_WeatherGift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 464K9H2LPP;
 				INFOPLIST_FILE = Barbara_WeatherGift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Barbara.Barbara-WeatherGift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E7B445BC205D985A0060C56D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9830A50F7F53AED368AC97D6 /* Pods-Barbara_WeatherGift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 464K9H2LPP;
 				INFOPLIST_FILE = Barbara_WeatherGift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Barbara.Barbara-WeatherGift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
